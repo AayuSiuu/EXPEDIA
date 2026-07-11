@@ -1,0 +1,202 @@
+[
+  {
+    "profile_id": "P01",
+    "description": "Solo female traveler, safety-conscious, wants a central, walkable base, keen on local culture and markets."
+  },
+  {
+    "profile_id": "P02",
+    "description": "Corporate road-warrior, needs rock-solid WiFi and meeting space, wants a quiet room for calls, mid-range expense-account budget, values a central location near the office district."
+  },
+  {
+    "profile_id": "P03",
+    "description": "Parents traveling with toddlers, prefers direct flights with kids, values connecting rooms, needs family-friendly facilities and a pool, mid-range budget."
+  },
+  {
+    "profile_id": "P04",
+    "description": "Couple on a romantic getaway, wants a spa and wellness facilities, appreciates attentive personal service, prefers a quiet, peaceful room, happy with a higher budget for the right vibe."
+  },
+  {
+    "profile_id": "P05",
+    "description": "Budget backpacker, open to multi-city routing to save money, loves nightlife and a social scene, tight budget, value is everything, wants to experience local culture cheaply."
+  },
+  {
+    "profile_id": "P06",
+    "description": "Discerning traveler, values privacy and refinement, wants a world-class spa, expects impeccable five-star service."
+  },
+  {
+    "profile_id": "P07",
+    "description": "Culinary traveler, interested in authentic local culture, wants to be central to the restaurant scene, chasing great food and local dining, mid-to-high budget for experiences."
+  },
+  {
+    "profile_id": "P08",
+    "description": "Traveler with mobility needs, wants a central location to minimize travel, needs helpful, attentive staff, prefers direct flights, requires full step-free accessibility."
+  },
+  {
+    "profile_id": "P09",
+    "description": "Couple after a beach break, enjoys good on-site dining, would love a spa to unwind, prefers direct flights, mid-range to upper budget."
+  },
+  {
+    "profile_id": "P10",
+    "description": "Long-stay freelancer, happy with multi-city stays, needs fast reliable WiFi for remote work, prefers a quiet room to focus."
+  },
+  {
+    "profile_id": "P11",
+    "description": "Bachelor/bachelorette group, fine with multi-city legs, wants to be central to the action, splitting costs so value matters."
+  },
+  {
+    "profile_id": "P12",
+    "description": "Guest on a self-care retreat, values spotless cleanliness, mid-range budget, prefers direct flights, seeking a spa and wellness retreat."
+  },
+  {
+    "profile_id": "P13",
+    "description": "Woman traveling alone, enjoys multi-city trips in one journey, keen on local culture and markets, prefers direct flights, wants a central, walkable base."
+  },
+  {
+    "profile_id": "P14",
+    "description": "Frequent business traveler, values a central location near the office district, mid-range expense-account budget, prefers direct flights, wants a quiet room for calls."
+  },
+  {
+    "profile_id": "P15",
+    "description": "Family with two children, mid-range budget, values connecting rooms, wants clean, spacious rooms."
+  },
+  {
+    "profile_id": "P16",
+    "description": "Honeymooning couple, wants a spa and wellness facilities, appreciates attentive personal service, happy with a higher budget for the right vibe, prefers a quiet, peaceful room."
+  },
+  {
+    "profile_id": "P17",
+    "description": "Shoestring traveler, open to multi-city routing to save money, wants to experience local culture cheaply, tight budget, value is everything."
+  },
+  {
+    "profile_id": "P18",
+    "description": "High-end leisure guest, expects impeccable five-star service, values privacy and refinement, budget is no object, wants a world-class spa."
+  },
+  {
+    "profile_id": "P19",
+    "description": "Avid foodie, wants to be central to the restaurant scene, mid-to-high budget for experiences, chasing great food and local dining, interested in authentic local culture."
+  },
+  {
+    "profile_id": "P20",
+    "description": "Wheelchair user, prefers direct flights, wants a central location to minimize travel, needs helpful, attentive staff."
+  },
+  {
+    "profile_id": "P21",
+    "description": "Beach-holiday traveler, prefers direct flights, mid-range to upper budget, enjoys good on-site dining, wants direct beach access."
+  },
+  {
+    "profile_id": "P22",
+    "description": "Remote worker, needs fast reliable WiFi for remote work, happy with multi-city stays, wants good value for an extended stay."
+  },
+  {
+    "profile_id": "P23",
+    "description": "Group of friends on a city break, fine with multi-city legs, wants to be central to the action, splitting costs so value matters."
+  },
+  {
+    "profile_id": "P24",
+    "description": "Solo wellness traveler, seeking a spa and wellness retreat, values spotless cleanliness, prefers direct flights."
+  },
+  {
+    "profile_id": "P25",
+    "description": "Independent solo traveler, prefers direct flights, wants a central, walkable base, keen on local culture and markets."
+  },
+  {
+    "profile_id": "P26",
+    "description": "Corporate road-warrior, values a central location near the office district, needs rock-solid WiFi and meeting space, wants a quiet room for calls."
+  },
+  {
+    "profile_id": "P27",
+    "description": "Family of four with young kids, values connecting rooms, needs family-friendly facilities and a pool, prefers direct flights with kids, mid-range budget."
+  },
+  {
+    "profile_id": "P28",
+    "description": "Honeymooning couple, appreciates attentive personal service, prefers a quiet, peaceful room, wants a spa and wellness facilities, happy with a higher budget for the right vibe."
+  },
+  {
+    "profile_id": "P29",
+    "description": "Young solo backpacker, tight budget, value is everything, loves nightlife and a social scene, wants to experience local culture cheaply, open to multi-city routing to save money."
+  },
+  {
+    "profile_id": "P30",
+    "description": "Luxury traveler, expects impeccable five-star service, prefers direct premium-cabin flights, values privacy and refinement, wants a world-class spa."
+  },
+  {
+    "profile_id": "P31",
+    "description": "Food-and-wine enthusiast, wants to be central to the restaurant scene, interested in authentic local culture, chasing great food and local dining."
+  },
+  {
+    "profile_id": "P32",
+    "description": "Guest requiring step-free access, needs helpful, attentive staff, prefers direct flights, wants a central location to minimize travel."
+  },
+  {
+    "profile_id": "P33",
+    "description": "Sun-seeker, mid-range to upper budget, would love a spa to unwind, wants direct beach access."
+  },
+  {
+    "profile_id": "P34",
+    "description": "Long-stay freelancer, happy with multi-city stays, needs fast reliable WiFi for remote work, prefers a quiet room to focus, wants good value for an extended stay."
+  },
+  {
+    "profile_id": "P35",
+    "description": "Friends traveling together, fine with multi-city legs, here for the nightlife and bars, splitting costs so value matters, wants to be central to the action."
+  },
+  {
+    "profile_id": "P36",
+    "description": "Guest on a self-care retreat, prefers direct flights, seeking a spa and wellness retreat, values spotless cleanliness."
+  },
+  {
+    "profile_id": "P37",
+    "description": "Solo female traveler, wants a central, walkable base, keen on local culture and markets, prefers direct flights, safety-conscious."
+  },
+  {
+    "profile_id": "P38",
+    "description": "Corporate road-warrior, mid-range expense-account budget, values a central location near the office district, prefers direct flights, wants a quiet room for calls."
+  },
+  {
+    "profile_id": "P39",
+    "description": "Family with two children, prefers direct flights with kids, needs family-friendly facilities and a pool, wants clean, spacious rooms, mid-range budget."
+  },
+  {
+    "profile_id": "P40",
+    "description": "Honeymooning couple, appreciates attentive personal service, happy with a higher budget for the right vibe, wants a spa and wellness facilities."
+  },
+  {
+    "profile_id": "P41",
+    "description": "Shoestring traveler, wants to experience local culture cheaply, tight budget, value is everything, open to multi-city routing to save money."
+  },
+  {
+    "profile_id": "P42",
+    "description": "High-end leisure guest, wants a world-class spa, budget is no object, values privacy and refinement."
+  },
+  {
+    "profile_id": "P43",
+    "description": "Avid foodie, mid-to-high budget for experiences, interested in authentic local culture, chasing great food and local dining, wants to be central to the restaurant scene."
+  },
+  {
+    "profile_id": "P44",
+    "description": "Wheelchair user, prefers direct flights, wants a central location to minimize travel, requires full step-free accessibility."
+  },
+  {
+    "profile_id": "P45",
+    "description": "Beach-holiday traveler, mid-range to upper budget, enjoys good on-site dining, wants direct beach access."
+  },
+  {
+    "profile_id": "P46",
+    "description": "Digital nomad on a long stay, happy with multi-city stays, prefers a quiet room to focus, needs fast reliable WiFi for remote work, wants good value for an extended stay."
+  },
+  {
+    "profile_id": "P47",
+    "description": "Group of friends on a city break, wants to be central to the action, here for the nightlife and bars, fine with multi-city legs, splitting costs so value matters."
+  },
+  {
+    "profile_id": "P48",
+    "description": "Guest on a self-care retreat, mid-range budget, prefers direct flights, wants a quiet, restful room, seeking a spa and wellness retreat."
+  },
+  {
+    "profile_id": "P49",
+    "description": "Solo female traveler, keen on local culture and markets, wants a central, walkable base, safety-conscious."
+  },
+  {
+    "profile_id": "P50",
+    "description": "Corporate road-warrior, mid-range expense-account budget, values a central location near the office district, needs rock-solid WiFi and meeting space."
+  }
+]
