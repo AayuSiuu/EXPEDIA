@@ -1,6 +1,6 @@
 ﻿# Hotel Review Intelligence Engine
 
-**Expedia Group Campus Hackathon 2026 — Innovation Round**
+**Expedia Group Campus Hackathon 2026 - Innovation Round**
 **Problem Statement 2: Hotel Review Intelligence Engine**
 
 ## Overview
@@ -8,6 +8,28 @@
 This project analyzes hotel reviews and user profiles to (1) track hotel
 performance over time, (2) detect aspect-level and seasonal sentiment shifts,
 and (3) generate personalized, evidence-based hotel recommendations.
+
+## Sample Output
+
+```json
+{
+  "profile_id": "P01",
+  "archetype": "solo_female_local",
+  "desired_dims": ["local_culture", "location_central", "safety"],
+  "top_hotels": [
+    {
+      "rank": 1,
+      "hotel_id": "H014",
+      "hotel_name": "The Meridian Plaza, London",
+      "relevance_score": 0.9999,
+      "evidence": "Strong match on: location (1.00), amenities (0.54)"
+    }
+  ]
+}
+```
+
+See `notebook.ipynb` for a full interactive walkthrough, or
+`data/processed/recommendations.json` for all 50 profiles.
 
 ## Architecture / Pipeline
 1. **Inputs:** `data/hotel_reviews.json`, `data/user_profiles.json`
@@ -19,7 +41,7 @@ and (3) generate personalized, evidence-based hotel recommendations.
 4. **`recommend.py`** → builds per-hotel aspect scores, matches them against
    each user profile → outputs `data/processed/recommendations.json`
 
-### 1. `pipeline.py` — Data Loading, Cleaning & Aspect Sentiment
+### 1. `pipeline.py` - Data Loading, Cleaning & Aspect Sentiment
 - Loads hotel reviews and user profiles.
 - Cleans review text, parses dates into year/month/quarter/season.
 - Splits reviews into sentences, maps sentences to 5 aspects (cleanliness,
@@ -35,7 +57,7 @@ and (3) generate personalized, evidence-based hotel recommendations.
 - Sentence-level deduplication before inference gives a large speedup (see
   "Key Dataset Finding" below).
 
-### 2. `drift_analysis.py` — Temporal & Seasonal Drift Detection
+### 2. `drift_analysis.py` - Temporal & Seasonal Drift Detection
 - Fits a simple linear trend (slope) of sentiment over time per hotel+aspect,
   classified as improving / declining / stable against a configurable
   threshold.
@@ -44,7 +66,7 @@ and (3) generate personalized, evidence-based hotel recommendations.
 - Outputs `hotel_id | aspect | trend_direction | trend_slope | flagged_season | deviation_magnitude`.
 - Generates sample time-series plots (see `data/processed/plots/`).
 
-### 3. `recommend.py` — Personalization & Recommendations
+### 3. `recommend.py` - Personalization & Recommendations
 - Parses each free-text user profile description into:
   - `desired_dims`: fine-grained interest tags (e.g. `safety`, `local_culture`,
     `business_connectivity`) inferred via keyword matching.
@@ -62,23 +84,22 @@ and (3) generate personalized, evidence-based hotel recommendations.
 1. **Review text is combinatorially generated from 43 fixed sentence
    templates.** Out of 50,000 reviews, only 28,411 are unique at the full-text
    level, and all aspect-relevant sentences resolve to just 43 recurring
-   templates. We exploited this for a ~1,470x inference speedup via
+   templates. I exploited this for a ~1,470x inference speedup via
    sentence-level deduplication before running the sentiment model. This also
-   means sentiment scores are deterministic per template — trend/seasonal
+   means sentiment scores are deterministic per template - trend/seasonal
    "drift" in the sample data reflects which templates were assigned to which
    months for a given hotel, not organic sentiment change. Our pipeline logic
    is nonetheless built to generalize correctly to organically-written review
    text.
-2. **User profile descriptions also show a repeated-template pattern** —
+2. **User profile descriptions also show a repeated-template pattern** -
    several of the 50 profiles produce identical inferred archetypes and
    recommendations, consistent with the same combinatorial generation
    approach used for reviews. Our system correctly produces deterministic,
    consistent output for repeated personas, which is a desirable property in
    a production recommender.
-3. **Persona–template alignment**: review templates cluster thematically
+3. **Persona-template alignment**: review templates cluster thematically
    (business/WiFi, family/pool, solo-safety, etc.) in a way that visibly
-   aligns with the traveler personas in `user_profiles.json`, which directly
-   informed our personalization design (Step 6/7).
+   aligns with the traveler personas in `user_profiles.json`, which directly informed the design of our personalization and recommendation logic (see recommend.py section above).
 
 ## Setup Instructions
 
@@ -95,11 +116,11 @@ Requires Python 3.10+. All paths are relative to the project root.
 
 ## Assumptions
 
-- Where the sample output schema image was partially cut off, we retained
-  additional fields (`relevance_score`, `evidence`) beyond what was directly
-  visible, as they materially support the "evidence-based" requirement in the
-  problem statement. Field names (`profile_id`, `archetype`, `desired_dims`,
-  `top_hotels`) match the visible portion of the provided schema exactly.
+- The provided output schema specifies profile_id, archetype, desired_dims, and
+  top_hotels (with rank, hotel_id, hotel_name). I extended each hotel entry
+  with two additional fields, relevance_score and evidence, since these
+  materially support the "evidence-based" requirement in the problem
+  statement. All schema-specified field names are matched exactly.
 - Nulls in review text are treated as empty strings rather than dropped, to
   preserve row alignment with `review_id`.
 - Sentences matching no aspect keyword are dropped by default (`drop_unhandled=True`),
@@ -109,13 +130,13 @@ Requires Python 3.10+. All paths are relative to the project root.
 
 ## Limitations
 
-- Sentiment model has no neutral class — mixed/neutral sentences are forced
+- Sentiment model has no neutral class - mixed/neutral sentences are forced
   into positive or negative.
 - Contradiction handling (reconciling conflicting sentiment across different reviewers for the same hotel/aspect) was not implemented in this submission - see Future Improvements.
 - Relevance scores can cluster near the ceiling (±1) due to the underlying
   sentiment model producing high-confidence scores on the dataset's templated
   sentences; ties are broken using review volume as a proxy for confidence.
-- No RAG / vector retrieval was used — not required per the problem statement
+- No RAG / vector retrieval was used - not required per the problem statement
   FAQ, and keyword-based aspect/dimension matching was sufficient and more
   explainable given the dataset's template structure.
 
