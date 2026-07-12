@@ -197,7 +197,7 @@ def plot_sample_trend(df, hotel_id, aspect):
     plt.plot(sub_df['year_month'], sub_df['avg_sentiment_score'], marker='o', linestyle='-', color='#1f77b4', linewidth=2, label='Avg Sentiment Score', zorder=2)
     
     sizes = np.clip(sub_df['review_count'] * 15, 30, 300)
-    plt.scatter(sub_df['year_month'], sub_df['avg_sentiment_score'], s=sizes, color='#ff7f0e', alpha=0.8, zorder=3, label='Review Count (size)')
+    plt.scatter(sub_df['year_month'], sub_df['avg_sentiment_score'], s=sizes, color='#ff7f0e', alpha=0.8, zorder=3, label='Review Count ')
     
     plt.title(f"Sentiment Trend for Hotel {hotel_id} - Aspect: {aspect.capitalize()}", fontsize=14, fontweight='bold', pad=15)
     plt.xlabel("Period (Year-Month)", fontsize=12, labelpad=10)
