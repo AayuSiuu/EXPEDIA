@@ -2,7 +2,6 @@ import pandas as pd
 import re
 import json
 
-# ---- Aspect keyword approach, reused from pipeline.py ----
 ASPECT_KEYWORDS = {
     "cleanliness": ["clean", "hygienic", "spotless", "housekeeping", "fresh", "tidy"],
     "service": ["service", "staff", "helpful", "friendly", "hospitality", "front desk", "check-in", "attentive"],
@@ -13,8 +12,6 @@ ASPECT_KEYWORDS = {
                  "market", "street", "area", "district", "office"],
 }
 
-# ---- Finer-grained "desired_dims" tags, sub-categories within/across the 5 aspects ----
-# Each dim maps to a set of trigger keywords found in profile descriptions.
 DIMENSION_KEYWORDS = {
     "safety": ["safe", "safety", "secure", "security", "well-lit"],
     "local_culture": ["culture", "local", "market", "artisan", "authentic", "neighborhood"],

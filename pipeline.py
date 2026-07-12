@@ -56,12 +56,8 @@ def clean_and_parse_data(df):
     """
     df = df.copy()
     
-    # 1. Clean review text
-    # Handle nulls
     df['review_text'] = df['review_text'].fillna("").astype(str)
     
-    # Clean text: lowercase and strip special characters, keeping basic punctuation for sentence splitting
-    # Retain letters, numbers, spaces, and . ! ? , ' -
     def clean_text(text):
         cleaned = text.lower()
         cleaned = re.sub(r"[^a-z0-9\s\.\!\?\,\'\-]", "", cleaned)
@@ -71,10 +67,8 @@ def clean_and_parse_data(df):
         
     df['cleaned_review_text'] = df['review_text'].apply(clean_text)
     
-    # 2. Parse review date
     df['review_date'] = pd.to_datetime(df['review_date'], errors='coerce')
     
-    # Extract components
     df['year'] = df['review_date'].dt.year
     df['month'] = df['review_date'].dt.month
     df['quarter'] = df['review_date'].dt.quarter
@@ -133,11 +127,8 @@ def extract_aspects_and_sentiment(df, sentiment_pipeline, drop_unhandled=True):
         year_month = row['year_month']
         text = row['cleaned_review_text']
         
-        # Split text into sentences
-        # Splitting using lookbehind for . ! ? and avoiding split on abbreviations
         sentences = [s.strip() for s in re.split(r'(?<!\bmr\.)(?<!\bdr\.)(?<!\bms\.)(?<!\bvs\.)(?<!\bst\.)(?<!\betc\.)(?<!\be\.g\.)(?<!\bi\.e\.)(?<=[.!?])\s+', text, flags=re.IGNORECASE) if s.strip()]
         
-        # If the text was empty or had no punctuation-split sentences, fall back to the whole text
         if not sentences and text.strip():
             sentences = [text.strip()]
             
@@ -148,8 +139,7 @@ def extract_aspects_and_sentiment(df, sentiment_pipeline, drop_unhandled=True):
                     matched_aspects.append(aspect)
                     
             if matched_aspects:
-                # Multi-aspect mapping: duplicate sentence row for each matched aspect
-                for aspect in matched_aspects:
+               for aspect in matched_aspects:
                     records.append({
                         'review_id': review_id,
                         'hotel_id': hotel_id,
@@ -174,7 +164,6 @@ def extract_aspects_and_sentiment(df, sentiment_pipeline, drop_unhandled=True):
     tagged_df = pd.DataFrame(records)
     print(f"Total aspect-sentence records extracted: {len(tagged_df)}")
     
-    # Optimize sentiment analysis: run only on unique sentences and map results back
     unique_sentences = tagged_df['sentence'].unique().tolist()
     print(f"Unique sentences to analyze: {len(unique_sentences)}")
     
@@ -185,7 +174,6 @@ def extract_aspects_and_sentiment(df, sentiment_pipeline, drop_unhandled=True):
     print("Running Hugging Face sentiment model locally...")
     for i in tqdm(range(0, len(unique_sentences), batch_size), desc="Analyzing sentiment"):
         batch = unique_sentences[i:i+batch_size]
-        # Run inference
         batch_results = sentiment_pipeline(batch)
         
         for sentence, result in zip(batch, batch_results):
@@ -255,7 +243,7 @@ def main(slice_n=None, drop_unhandled=True):
     print(f"Project Root: {os.getcwd()}")
     print("="*60)
     
-    # 1. Load Data
+    # Load Data
     reviews_df, profiles_df = load_data(reviews_path, profiles_path)
     
     # Slice if requested
@@ -267,14 +255,14 @@ def main(slice_n=None, drop_unhandled=True):
     print(f"Reviews schema at start:")
     print(reviews_df.dtypes)
     
-    # 2. Clean and Parse Data
+    # Clean and Parse Data
     print("\n" + "-"*40)
     print("Cleaning and Parsing Data...")
     cleaned_df = clean_and_parse_data(reviews_df)
     print(f"Cleaned DataFrame shape: {cleaned_df.shape}")
     print("Columns added: year, month, quarter, season, year_month, cleaned_review_text")
     
-    # 3. Initialize Hugging Face pipeline
+    #Initialize Hugging Face pipeline
     print("\n" + "-"*40)
     print("Initializing Hugging Face Sentiment Analysis Pipeline...")
     device = 0 if torch.cuda.is_available() else -1
@@ -286,7 +274,7 @@ def main(slice_n=None, drop_unhandled=True):
         device=device
     )
     
-    # 4. Aspect-Based Sentiment Tagging
+    # Aspect-Based Sentiment Tagging
     print("\n" + "-"*40)
     print(f"Extracting Aspects & Sentiments (drop_unhandled={drop_unhandled})...")
     tagged_df = extract_aspects_and_sentiment(cleaned_df, sentiment_pipeline, drop_unhandled=drop_unhandled)
@@ -299,7 +287,7 @@ def main(slice_n=None, drop_unhandled=True):
         print("\nSample tagged output (first 5 rows before aggregation):")
         print(tagged_df[['review_id', 'hotel_id', 'aspect', 'year_month', 'sentiment_score', 'sentence']].head(5).to_string())
     
-    # 5. Aggregate Output
+    # Aggregate Output
     print("\n" + "-"*40)
     print("Aggregating sentiment scores...")
     aggregated_df = aggregate_sentiment(tagged_df)
@@ -312,7 +300,7 @@ def main(slice_n=None, drop_unhandled=True):
         print("\nSample aggregated output (first 10 rows):")
         print(aggregated_df.head(10).to_string())
         
-    # 6. Save final output
+    # Save final output
     print("\n" + "-"*40)
     print("Saving aggregated output...")
     save_processed_data(aggregated_df, output_path)
@@ -324,5 +312,4 @@ def main(slice_n=None, drop_unhandled=True):
     
     return cleaned_df, tagged_df, aggregated_df
 if __name__ == "__main__":
-    # Execute on the full dataset
     main(slice_n=None, drop_unhandled=True)
