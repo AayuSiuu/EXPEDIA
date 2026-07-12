@@ -83,7 +83,7 @@ and (3) generate personalized, evidence-based hotel recommendations.
 ## Setup Instructions
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/AayuSiuu/expedia.git
 cd expedia
 pip install -r requirements.txt
 python pipeline.py
