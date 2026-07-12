@@ -111,8 +111,7 @@ Requires Python 3.10+. All paths are relative to the project root.
 
 - Sentiment model has no neutral class — mixed/neutral sentences are forced
   into positive or negative.
-- Contradiction handling across reviewer types (Step 5) was not implemented
-  in this submission — see Future Improvements.
+- Contradiction handling (reconciling conflicting sentiment across different reviewers for the same hotel/aspect) was not implemented in this submission - see Future Improvements.
 - Relevance scores can cluster near the ceiling (±1) due to the underlying
   sentiment model producing high-confidence scores on the dataset's templated
   sentences; ties are broken using review volume as a proxy for confidence.
@@ -122,7 +121,7 @@ Requires Python 3.10+. All paths are relative to the project root.
 
 ## Future Improvements
 
-- Explicit contradiction handling across reviewer types (Step 5).
+- Explicit contradiction handling - e.g. detecting and reconciling cases where different reviewers give conflicting sentiment about the same hotel/aspect (for example, one reviewer calling a hotel "spotless" while another calls it "dirty").
 - Zero-shot aspect classification (e.g. `facebook/bart-large-mnli`) to remove
   dependency on hand-written keyword lists.
 - A neutral-aware sentiment model for more nuanced scoring.
