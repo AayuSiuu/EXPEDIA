@@ -1,0 +1,2352 @@
+{
+  "P01": {
+    "profile_description": "Solo female traveler, safety-conscious, wants a central, walkable base, keen on local culture and markets.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.0,
+      "location": 1.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.54)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), service (0.44)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.96)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H051",
+        "hotel_name": "Casa Harbour, Istanbul",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.45)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H098",
+        "hotel_name": "The Royal Plaza, Mumbai",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00)"
+      }
+    ]
+  },
+  "P02": {
+    "profile_description": "Corporate road-warrior, needs rock-solid WiFi and meeting space, wants a quiet room for calls, mid-range expense-account budget, values a central location near the office district.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.25,
+      "value": 0.333,
+      "location": 0.417
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.925,
+        "evidence": "Strong match on: location (1.00), value (0.80)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.6805,
+        "evidence": "Strong match on: location (0.82), value (0.79)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H017",
+        "hotel_name": "The Belmont, Bangkok",
+        "relevance_score": 0.6661,
+        "evidence": "Strong match on: location (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.666,
+        "evidence": "Strong match on: location (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.6529,
+        "evidence": "Strong match on: location (1.00), value (0.88)"
+      }
+    ]
+  },
+  "P03": {
+    "profile_description": "Parents traveling with toddlers, prefers direct flights with kids, values connecting rooms, needs family-friendly facilities and a pool, mid-range budget.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.143,
+      "amenities": 0.571,
+      "value": 0.286,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.9231,
+        "evidence": "Strong match on: amenities (0.92), value (0.89)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8799,
+        "evidence": "Strong match on: amenities (0.91), value (0.79)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H031",
+        "hotel_name": "Casa Atrium, Seoul",
+        "relevance_score": 0.832,
+        "evidence": "Strong match on: amenities (1.00), service (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.8252,
+        "evidence": "Strong match on: amenities (0.93), value (0.86)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7836,
+        "evidence": "Strong match on: amenities (0.77), value (0.78)"
+      }
+    ]
+  },
+  "P04": {
+    "profile_description": "Couple on a romantic getaway, wants a spa and wellness facilities, appreciates attentive personal service, prefers a quiet, peaceful room, happy with a higher budget for the right vibe.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.4,
+      "amenities": 0.2,
+      "value": 0.2,
+      "location": 0.2
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.7441,
+        "evidence": "Strong match on: service (0.94), amenities (0.94)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H022",
+        "hotel_name": "Hotel Atrium, Cape Town",
+        "relevance_score": 0.6821,
+        "evidence": "Strong match on: service (0.81), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H013",
+        "hotel_name": "The Boulevard Heights, San Francisco",
+        "relevance_score": 0.6655,
+        "evidence": "Strong match on: service (0.72), value (0.74)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.6461,
+        "evidence": "Strong match on: service (0.84), value (0.78)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H091",
+        "hotel_name": "Casa Lantern, Istanbul",
+        "relevance_score": 0.6403,
+        "evidence": "Strong match on: service (0.80), location (0.80)"
+      }
+    ]
+  },
+  "P05": {
+    "profile_description": "Budget backpacker, open to multi-city routing to save money, loves nightlife and a social scene, tight budget, value is everything, wants to experience local culture cheaply.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.75,
+      "location": 0.25
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9156,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9126,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8511,
+        "evidence": "Strong match on: value (0.80), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.8404,
+        "evidence": "Strong match on: value (0.79), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7967,
+        "evidence": "Strong match on: value (0.79), location (0.82)"
+      }
+    ]
+  },
+  "P06": {
+    "profile_description": "Discerning traveler, values privacy and refinement, wants a world-class spa, expects impeccable five-star service.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.333,
+      "amenities": 0.333,
+      "value": 0.333,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.9356,
+        "evidence": "Strong match on: service (1.00), amenities (0.92)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8804,
+        "evidence": "Strong match on: service (0.94), amenities (0.91)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H031",
+        "hotel_name": "Casa Atrium, Seoul",
+        "relevance_score": 0.8041,
+        "evidence": "Strong match on: amenities (1.00), service (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7973,
+        "evidence": "Strong match on: service (0.84), value (0.78)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.7111,
+        "evidence": "Strong match on: amenities (0.93), value (0.86)"
+      }
+    ]
+  },
+  "P07": {
+    "profile_description": "Culinary traveler, interested in authentic local culture, wants to be central to the restaurant scene, chasing great food and local dining, mid-to-high budget for experiences.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.333,
+      "location": 0.667
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9611,
+        "evidence": "Strong match on: location (1.00), value (0.88)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9331,
+        "evidence": "Strong match on: location (1.00), value (0.80)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.929,
+        "evidence": "Strong match on: location (1.00), value (0.79)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.8564,
+        "evidence": "Strong match on: location (0.81), value (0.95)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H078",
+        "hotel_name": "The Meridian Harbour, London",
+        "relevance_score": 0.849,
+        "evidence": "Strong match on: location (1.00), value (0.55)"
+      }
+    ]
+  },
+  "P08": {
+    "profile_description": "Traveler with mobility needs, wants a central location to minimize travel, needs helpful, attentive staff, prefers direct flights, requires full step-free accessibility.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.5,
+      "amenities": 0.167,
+      "value": 0.0,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9429,
+        "evidence": "Strong match on: service (0.90), location (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.9266,
+        "evidence": "Strong match on: service (0.94), location (0.90)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H111",
+        "hotel_name": "The Grand Garden, Dubai",
+        "relevance_score": 0.903,
+        "evidence": "Strong match on: service (0.92), location (0.90)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.8932,
+        "evidence": "Strong match on: service (0.94), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H109",
+        "hotel_name": "The Royal Sands, Rome",
+        "relevance_score": 0.8918,
+        "evidence": "Strong match on: service (0.94), location (1.00)"
+      }
+    ]
+  },
+  "P09": {
+    "profile_description": "Couple after a beach break, enjoys good on-site dining, would love a spa to unwind, prefers direct flights, mid-range to upper budget.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.5,
+      "value": 0.5,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.9043,
+        "evidence": "Strong match on: amenities (0.92), value (0.89)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.8945,
+        "evidence": "Strong match on: amenities (0.93), value (0.86)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.884,
+        "evidence": "Strong match on: amenities (0.97), value (0.80)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8509,
+        "evidence": "Strong match on: amenities (0.91), value (0.79)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7766,
+        "evidence": "Strong match on: value (0.78), amenities (0.77)"
+      }
+    ]
+  },
+  "P10": {
+    "profile_description": "Long-stay freelancer, happy with multi-city stays, needs fast reliable WiFi for remote work, prefers a quiet room to focus.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.5,
+      "value": 0.0,
+      "location": 0.5
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H017",
+        "hotel_name": "The Belmont, Bangkok",
+        "relevance_score": 0.9993,
+        "evidence": "Strong match on: amenities (1.00), location (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.999,
+        "evidence": "Strong match on: amenities (1.00), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9824,
+        "evidence": "Strong match on: location (1.00), amenities (0.97)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9795,
+        "evidence": "Strong match on: location (1.00), amenities (0.96)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.9237,
+        "evidence": "Strong match on: amenities (0.94), location (0.90)"
+      }
+    ]
+  },
+  "P11": {
+    "profile_description": "Bachelor/bachelorette group, fine with multi-city legs, wants to be central to the action, splitting costs so value matters.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.667,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9223,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9037,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8675,
+        "evidence": "Strong match on: value (0.80), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.8581,
+        "evidence": "Strong match on: value (0.79), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7994,
+        "evidence": "Strong match on: value (0.79), location (0.82)"
+      }
+    ]
+  },
+  "P12": {
+    "profile_description": "Guest on a self-care retreat, values spotless cleanliness, mid-range budget, prefers direct flights, seeking a spa and wellness retreat.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.4,
+      "service": 0.0,
+      "amenities": 0.2,
+      "value": 0.4,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8469,
+        "evidence": "Strong match on: cleanliness (0.87), value (0.79)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7418,
+        "evidence": "Strong match on: cleanliness (0.92), value (0.79)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H112",
+        "hotel_name": "The Meridian Court, Barcelona",
+        "relevance_score": 0.6765,
+        "evidence": "Strong match on: cleanliness (0.88), value (0.69)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.5993,
+        "evidence": "Strong match on: cleanliness (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H091",
+        "hotel_name": "Casa Lantern, Istanbul",
+        "relevance_score": 0.5975,
+        "evidence": "Strong match on: cleanliness (0.74), value (0.69)"
+      }
+    ]
+  },
+  "P13": {
+    "profile_description": "Woman traveling alone, enjoys multi-city trips in one journey, keen on local culture and markets, prefers direct flights, wants a central, walkable base.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.0,
+      "location": 1.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.54)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), service (0.44)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.96)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H051",
+        "hotel_name": "Casa Harbour, Istanbul",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.45)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H098",
+        "hotel_name": "The Royal Plaza, Mumbai",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00)"
+      }
+    ]
+  },
+  "P14": {
+    "profile_description": "Frequent business traveler, values a central location near the office district, mid-range expense-account budget, prefers direct flights, wants a quiet room for calls.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.375,
+      "location": 0.625
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9562,
+        "evidence": "Strong match on: location (1.00), value (0.88)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9249,
+        "evidence": "Strong match on: location (1.00), value (0.80)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.9201,
+        "evidence": "Strong match on: location (1.00), value (0.79)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.8623,
+        "evidence": "Strong match on: location (0.81), value (0.95)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H078",
+        "hotel_name": "The Meridian Harbour, London",
+        "relevance_score": 0.8301,
+        "evidence": "Strong match on: location (1.00), value (0.55)"
+      }
+    ]
+  },
+  "P15": {
+    "profile_description": "Family with two children, mid-range budget, values connecting rooms, wants clean, spacious rooms.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.2,
+      "service": 0.0,
+      "amenities": 0.4,
+      "value": 0.4,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8546,
+        "evidence": "Strong match on: amenities (0.91), value (0.79)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.7234,
+        "evidence": "Strong match on: amenities (0.92), value (0.89)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.7156,
+        "evidence": "Strong match on: amenities (0.93), value (0.86)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.7072,
+        "evidence": "Strong match on: amenities (0.97), value (0.80)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.6213,
+        "evidence": "Strong match on: value (0.78), amenities (0.77)"
+      }
+    ]
+  },
+  "P16": {
+    "profile_description": "Honeymooning couple, wants a spa and wellness facilities, appreciates attentive personal service, happy with a higher budget for the right vibe, prefers a quiet, peaceful room.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.4,
+      "amenities": 0.2,
+      "value": 0.2,
+      "location": 0.2
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.7441,
+        "evidence": "Strong match on: service (0.94), amenities (0.94)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H022",
+        "hotel_name": "Hotel Atrium, Cape Town",
+        "relevance_score": 0.6821,
+        "evidence": "Strong match on: service (0.81), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H013",
+        "hotel_name": "The Boulevard Heights, San Francisco",
+        "relevance_score": 0.6655,
+        "evidence": "Strong match on: service (0.72), value (0.74)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.6461,
+        "evidence": "Strong match on: service (0.84), value (0.78)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H091",
+        "hotel_name": "Casa Lantern, Istanbul",
+        "relevance_score": 0.6403,
+        "evidence": "Strong match on: service (0.80), location (0.80)"
+      }
+    ]
+  },
+  "P17": {
+    "profile_description": "Shoestring traveler, open to multi-city routing to save money, wants to experience local culture cheaply, tight budget, value is everything.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.75,
+      "location": 0.25
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9156,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9126,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8511,
+        "evidence": "Strong match on: value (0.80), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.8404,
+        "evidence": "Strong match on: value (0.79), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7967,
+        "evidence": "Strong match on: value (0.79), location (0.82)"
+      }
+    ]
+  },
+  "P18": {
+    "profile_description": "High-end leisure guest, expects impeccable five-star service, values privacy and refinement, budget is no object, wants a world-class spa.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.25,
+      "amenities": 0.25,
+      "value": 0.5,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.923,
+        "evidence": "Strong match on: value (0.89), service (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8587,
+        "evidence": "Strong match on: value (0.79), service (0.94)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7937,
+        "evidence": "Strong match on: value (0.78), service (0.84)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.7488,
+        "evidence": "Strong match on: value (0.86), amenities (0.93)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H070",
+        "hotel_name": "Casa Atrium, Sydney",
+        "relevance_score": 0.7442,
+        "evidence": "Strong match on: value (0.94), service (0.95)"
+      }
+    ]
+  },
+  "P19": {
+    "profile_description": "Avid foodie, wants to be central to the restaurant scene, mid-to-high budget for experiences, chasing great food and local dining, interested in authentic local culture.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.333,
+      "location": 0.667
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9611,
+        "evidence": "Strong match on: location (1.00), value (0.88)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9331,
+        "evidence": "Strong match on: location (1.00), value (0.80)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.929,
+        "evidence": "Strong match on: location (1.00), value (0.79)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.8564,
+        "evidence": "Strong match on: location (0.81), value (0.95)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H078",
+        "hotel_name": "The Meridian Harbour, London",
+        "relevance_score": 0.849,
+        "evidence": "Strong match on: location (1.00), value (0.55)"
+      }
+    ]
+  },
+  "P20": {
+    "profile_description": "Wheelchair user, prefers direct flights, wants a central location to minimize travel, needs helpful, attentive staff.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.6,
+      "amenities": 0.0,
+      "value": 0.0,
+      "location": 0.4
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H079",
+        "hotel_name": "Hotel del Aurora, Sydney",
+        "relevance_score": 0.9992,
+        "evidence": "Strong match on: service (1.00), location (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.969,
+        "evidence": "Strong match on: service (0.95), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H051",
+        "hotel_name": "Casa Harbour, Istanbul",
+        "relevance_score": 0.9657,
+        "evidence": "Strong match on: service (0.94), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.964,
+        "evidence": "Strong match on: service (0.94), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H109",
+        "hotel_name": "The Royal Sands, Rome",
+        "relevance_score": 0.9611,
+        "evidence": "Strong match on: service (0.94), location (1.00)"
+      }
+    ]
+  },
+  "P21": {
+    "profile_description": "Beach-holiday traveler, prefers direct flights, mid-range to upper budget, enjoys good on-site dining, wants direct beach access.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 1.0,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H002",
+        "hotel_name": "Hotel Belmont, Singapore",
+        "relevance_score": 0.9628,
+        "evidence": "Strong match on: value (0.96)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9511,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H070",
+        "hotel_name": "Casa Atrium, Sydney",
+        "relevance_score": 0.9408,
+        "evidence": "Strong match on: value (0.94), amenities (0.15)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.8854,
+        "evidence": "Strong match on: value (0.89), amenities (0.92)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.8835,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      }
+    ]
+  },
+  "P22": {
+    "profile_description": "Remote worker, needs fast reliable WiFi for remote work, happy with multi-city stays, wants good value for an extended stay.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.5,
+      "value": 0.5,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.9043,
+        "evidence": "Strong match on: amenities (0.92), value (0.89)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.8945,
+        "evidence": "Strong match on: amenities (0.93), value (0.86)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.884,
+        "evidence": "Strong match on: amenities (0.97), value (0.80)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8509,
+        "evidence": "Strong match on: amenities (0.91), value (0.79)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7766,
+        "evidence": "Strong match on: value (0.78), amenities (0.77)"
+      }
+    ]
+  },
+  "P23": {
+    "profile_description": "Group of friends on a city break, fine with multi-city legs, wants to be central to the action, splitting costs so value matters.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.667,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9223,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9037,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8675,
+        "evidence": "Strong match on: value (0.80), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.8581,
+        "evidence": "Strong match on: value (0.79), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7994,
+        "evidence": "Strong match on: value (0.79), location (0.82)"
+      }
+    ]
+  },
+  "P24": {
+    "profile_description": "Solo wellness traveler, seeking a spa and wellness retreat, values spotless cleanliness, prefers direct flights.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.5,
+      "service": 0.0,
+      "amenities": 0.25,
+      "value": 0.25,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8603,
+        "evidence": "Strong match on: cleanliness (0.87), amenities (0.91)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.7491,
+        "evidence": "Strong match on: cleanliness (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7302,
+        "evidence": "Strong match on: cleanliness (0.92), value (0.79)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.7148,
+        "evidence": "Strong match on: cleanliness (0.96), amenities (0.94)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H112",
+        "hotel_name": "The Meridian Court, Barcelona",
+        "relevance_score": 0.6733,
+        "evidence": "Strong match on: cleanliness (0.88), value (0.69)"
+      }
+    ]
+  },
+  "P25": {
+    "profile_description": "Independent solo traveler, prefers direct flights, wants a central, walkable base, keen on local culture and markets.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.0,
+      "location": 1.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.54)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), service (0.44)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.96)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H051",
+        "hotel_name": "Casa Harbour, Istanbul",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.45)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H098",
+        "hotel_name": "The Royal Plaza, Mumbai",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00)"
+      }
+    ]
+  },
+  "P26": {
+    "profile_description": "Corporate road-warrior, values a central location near the office district, needs rock-solid WiFi and meeting space, wants a quiet room for calls.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.3,
+      "value": 0.2,
+      "location": 0.5
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9496,
+        "evidence": "Strong match on: location (1.00), amenities (0.97)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H017",
+        "hotel_name": "The Belmont, Bangkok",
+        "relevance_score": 0.7993,
+        "evidence": "Strong match on: location (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.7992,
+        "evidence": "Strong match on: location (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H022",
+        "hotel_name": "Hotel Atrium, Cape Town",
+        "relevance_score": 0.7393,
+        "evidence": "Strong match on: location (1.00), amenities (0.80)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.7347,
+        "evidence": "Strong match on: location (0.90), amenities (0.94)"
+      }
+    ]
+  },
+  "P27": {
+    "profile_description": "Family of four with young kids, values connecting rooms, needs family-friendly facilities and a pool, prefers direct flights with kids, mid-range budget.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.143,
+      "amenities": 0.571,
+      "value": 0.286,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.9231,
+        "evidence": "Strong match on: amenities (0.92), value (0.89)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8799,
+        "evidence": "Strong match on: amenities (0.91), value (0.79)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H031",
+        "hotel_name": "Casa Atrium, Seoul",
+        "relevance_score": 0.832,
+        "evidence": "Strong match on: amenities (1.00), service (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.8252,
+        "evidence": "Strong match on: amenities (0.93), value (0.86)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7836,
+        "evidence": "Strong match on: amenities (0.77), value (0.78)"
+      }
+    ]
+  },
+  "P28": {
+    "profile_description": "Honeymooning couple, appreciates attentive personal service, prefers a quiet, peaceful room, wants a spa and wellness facilities, happy with a higher budget for the right vibe.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.4,
+      "amenities": 0.2,
+      "value": 0.2,
+      "location": 0.2
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.7441,
+        "evidence": "Strong match on: service (0.94), amenities (0.94)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H022",
+        "hotel_name": "Hotel Atrium, Cape Town",
+        "relevance_score": 0.6821,
+        "evidence": "Strong match on: service (0.81), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H013",
+        "hotel_name": "The Boulevard Heights, San Francisco",
+        "relevance_score": 0.6655,
+        "evidence": "Strong match on: service (0.72), value (0.74)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.6461,
+        "evidence": "Strong match on: service (0.84), value (0.78)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H091",
+        "hotel_name": "Casa Lantern, Istanbul",
+        "relevance_score": 0.6403,
+        "evidence": "Strong match on: service (0.80), location (0.80)"
+      }
+    ]
+  },
+  "P29": {
+    "profile_description": "Young solo backpacker, tight budget, value is everything, loves nightlife and a social scene, wants to experience local culture cheaply, open to multi-city routing to save money.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.75,
+      "location": 0.25
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9156,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9126,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8511,
+        "evidence": "Strong match on: value (0.80), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.8404,
+        "evidence": "Strong match on: value (0.79), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7967,
+        "evidence": "Strong match on: value (0.79), location (0.82)"
+      }
+    ]
+  },
+  "P30": {
+    "profile_description": "Luxury traveler, expects impeccable five-star service, prefers direct premium-cabin flights, values privacy and refinement, wants a world-class spa.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.333,
+      "amenities": 0.333,
+      "value": 0.333,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.9356,
+        "evidence": "Strong match on: service (1.00), amenities (0.92)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8804,
+        "evidence": "Strong match on: service (0.94), amenities (0.91)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H031",
+        "hotel_name": "Casa Atrium, Seoul",
+        "relevance_score": 0.8041,
+        "evidence": "Strong match on: amenities (1.00), service (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7973,
+        "evidence": "Strong match on: service (0.84), value (0.78)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.7111,
+        "evidence": "Strong match on: amenities (0.93), value (0.86)"
+      }
+    ]
+  },
+  "P31": {
+    "profile_description": "Food-and-wine enthusiast, wants to be central to the restaurant scene, interested in authentic local culture, chasing great food and local dining.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.0,
+      "location": 1.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.54)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), service (0.44)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.96)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H051",
+        "hotel_name": "Casa Harbour, Istanbul",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.45)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H098",
+        "hotel_name": "The Royal Plaza, Mumbai",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00)"
+      }
+    ]
+  },
+  "P32": {
+    "profile_description": "Guest requiring step-free access, needs helpful, attentive staff, prefers direct flights, wants a central location to minimize travel.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.5,
+      "amenities": 0.167,
+      "value": 0.0,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9429,
+        "evidence": "Strong match on: service (0.90), location (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.9266,
+        "evidence": "Strong match on: service (0.94), location (0.90)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H111",
+        "hotel_name": "The Grand Garden, Dubai",
+        "relevance_score": 0.903,
+        "evidence": "Strong match on: service (0.92), location (0.90)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.8932,
+        "evidence": "Strong match on: service (0.94), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H109",
+        "hotel_name": "The Royal Sands, Rome",
+        "relevance_score": 0.8918,
+        "evidence": "Strong match on: service (0.94), location (1.00)"
+      }
+    ]
+  },
+  "P33": {
+    "profile_description": "Sun-seeker, mid-range to upper budget, would love a spa to unwind, wants direct beach access.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.5,
+      "value": 0.5,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.9043,
+        "evidence": "Strong match on: amenities (0.92), value (0.89)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.8945,
+        "evidence": "Strong match on: amenities (0.93), value (0.86)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.884,
+        "evidence": "Strong match on: amenities (0.97), value (0.80)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8509,
+        "evidence": "Strong match on: amenities (0.91), value (0.79)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7766,
+        "evidence": "Strong match on: value (0.78), amenities (0.77)"
+      }
+    ]
+  },
+  "P34": {
+    "profile_description": "Long-stay freelancer, happy with multi-city stays, needs fast reliable WiFi for remote work, prefers a quiet room to focus, wants good value for an extended stay.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.333,
+      "value": 0.333,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9222,
+        "evidence": "Strong match on: location (1.00), amenities (0.97)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H017",
+        "hotel_name": "The Belmont, Bangkok",
+        "relevance_score": 0.6662,
+        "evidence": "Strong match on: amenities (1.00), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.666,
+        "evidence": "Strong match on: amenities (1.00), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.6371,
+        "evidence": "Strong match on: location (0.82), value (0.79)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H013",
+        "hotel_name": "The Boulevard Heights, San Francisco",
+        "relevance_score": 0.6302,
+        "evidence": "Strong match on: value (0.74), location (0.67)"
+      }
+    ]
+  },
+  "P35": {
+    "profile_description": "Friends traveling together, fine with multi-city legs, here for the nightlife and bars, splitting costs so value matters, wants to be central to the action.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.667,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9223,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9037,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8675,
+        "evidence": "Strong match on: value (0.80), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.8581,
+        "evidence": "Strong match on: value (0.79), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7994,
+        "evidence": "Strong match on: value (0.79), location (0.82)"
+      }
+    ]
+  },
+  "P36": {
+    "profile_description": "Guest on a self-care retreat, prefers direct flights, seeking a spa and wellness retreat, values spotless cleanliness.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.5,
+      "service": 0.0,
+      "amenities": 0.25,
+      "value": 0.25,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8603,
+        "evidence": "Strong match on: cleanliness (0.87), amenities (0.91)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.7491,
+        "evidence": "Strong match on: cleanliness (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7302,
+        "evidence": "Strong match on: cleanliness (0.92), value (0.79)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.7148,
+        "evidence": "Strong match on: cleanliness (0.96), amenities (0.94)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H112",
+        "hotel_name": "The Meridian Court, Barcelona",
+        "relevance_score": 0.6733,
+        "evidence": "Strong match on: cleanliness (0.88), value (0.69)"
+      }
+    ]
+  },
+  "P37": {
+    "profile_description": "Solo female traveler, wants a central, walkable base, keen on local culture and markets, prefers direct flights, safety-conscious.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.0,
+      "location": 1.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.54)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), service (0.44)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.96)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H051",
+        "hotel_name": "Casa Harbour, Istanbul",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.45)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H098",
+        "hotel_name": "The Royal Plaza, Mumbai",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00)"
+      }
+    ]
+  },
+  "P38": {
+    "profile_description": "Corporate road-warrior, mid-range expense-account budget, values a central location near the office district, prefers direct flights, wants a quiet room for calls.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.444,
+      "location": 0.556
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9481,
+        "evidence": "Strong match on: location (1.00), value (0.88)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9113,
+        "evidence": "Strong match on: location (1.00), value (0.80)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.9053,
+        "evidence": "Strong match on: location (1.00), value (0.79)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.8722,
+        "evidence": "Strong match on: location (0.81), value (0.95)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.8069,
+        "evidence": "Strong match on: location (0.82), value (0.79)"
+      }
+    ]
+  },
+  "P39": {
+    "profile_description": "Family with two children, prefers direct flights with kids, needs family-friendly facilities and a pool, wants clean, spacious rooms, mid-range budget.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.143,
+      "service": 0.143,
+      "amenities": 0.571,
+      "value": 0.143,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8908,
+        "evidence": "Strong match on: amenities (0.91), service (0.94)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H075",
+        "hotel_name": "The Grand Harbour, Barcelona",
+        "relevance_score": 0.8105,
+        "evidence": "Strong match on: amenities (0.94), cleanliness (0.96)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.7966,
+        "evidence": "Strong match on: amenities (0.92), service (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H031",
+        "hotel_name": "Casa Atrium, Seoul",
+        "relevance_score": 0.7729,
+        "evidence": "Strong match on: amenities (1.00), service (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H089",
+        "hotel_name": "The Regent Heights, Lisbon",
+        "relevance_score": 0.7049,
+        "evidence": "Strong match on: amenities (0.99), service (1.00)"
+      }
+    ]
+  },
+  "P40": {
+    "profile_description": "Honeymooning couple, appreciates attentive personal service, happy with a higher budget for the right vibe, wants a spa and wellness facilities.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.5,
+      "amenities": 0.25,
+      "value": 0.25,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.9512,
+        "evidence": "Strong match on: service (1.00), amenities (0.92)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8951,
+        "evidence": "Strong match on: service (0.94), amenities (0.91)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H031",
+        "hotel_name": "Casa Atrium, Seoul",
+        "relevance_score": 0.8529,
+        "evidence": "Strong match on: service (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.8076,
+        "evidence": "Strong match on: service (0.84), value (0.78)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H070",
+        "hotel_name": "Casa Atrium, Sydney",
+        "relevance_score": 0.7454,
+        "evidence": "Strong match on: service (0.95), value (0.94)"
+      }
+    ]
+  },
+  "P41": {
+    "profile_description": "Shoestring traveler, wants to experience local culture cheaply, tight budget, value is everything, open to multi-city routing to save money.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.75,
+      "location": 0.25
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9156,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9126,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8511,
+        "evidence": "Strong match on: value (0.80), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.8404,
+        "evidence": "Strong match on: value (0.79), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7967,
+        "evidence": "Strong match on: value (0.79), location (0.82)"
+      }
+    ]
+  },
+  "P42": {
+    "profile_description": "High-end leisure guest, wants a world-class spa, budget is no object, values privacy and refinement.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.333,
+      "value": 0.667,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.898,
+        "evidence": "Strong match on: value (0.89), amenities (0.92)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H073",
+        "hotel_name": "The Royal Lumiere, Istanbul",
+        "relevance_score": 0.8837,
+        "evidence": "Strong match on: value (0.86), amenities (0.93)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8566,
+        "evidence": "Strong match on: value (0.80), amenities (0.97)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H071",
+        "hotel_name": "The Belmont, Seoul",
+        "relevance_score": 0.8318,
+        "evidence": "Strong match on: value (0.79), amenities (0.91)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H054",
+        "hotel_name": "The Park Riverside, Barcelona",
+        "relevance_score": 0.7787,
+        "evidence": "Strong match on: value (0.78), amenities (0.77)"
+      }
+    ]
+  },
+  "P43": {
+    "profile_description": "Avid foodie, mid-to-high budget for experiences, interested in authentic local culture, chasing great food and local dining, wants to be central to the restaurant scene.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.333,
+      "location": 0.667
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9611,
+        "evidence": "Strong match on: location (1.00), value (0.88)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9331,
+        "evidence": "Strong match on: location (1.00), value (0.80)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.929,
+        "evidence": "Strong match on: location (1.00), value (0.79)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.8564,
+        "evidence": "Strong match on: location (0.81), value (0.95)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H078",
+        "hotel_name": "The Meridian Harbour, London",
+        "relevance_score": 0.849,
+        "evidence": "Strong match on: location (1.00), value (0.55)"
+      }
+    ]
+  },
+  "P44": {
+    "profile_description": "Wheelchair user, prefers direct flights, wants a central location to minimize travel, requires full step-free accessibility.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.333,
+      "value": 0.0,
+      "location": 0.667
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H017",
+        "hotel_name": "The Belmont, Bangkok",
+        "relevance_score": 0.9991,
+        "evidence": "Strong match on: location (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.999,
+        "evidence": "Strong match on: location (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9878,
+        "evidence": "Strong match on: location (1.00), amenities (0.97)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9863,
+        "evidence": "Strong match on: location (1.00), amenities (0.96)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H022",
+        "hotel_name": "Hotel Atrium, Cape Town",
+        "relevance_score": 0.9324,
+        "evidence": "Strong match on: location (1.00), amenities (0.80)"
+      }
+    ]
+  },
+  "P45": {
+    "profile_description": "Beach-holiday traveler, mid-range to upper budget, enjoys good on-site dining, wants direct beach access.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 1.0,
+      "location": 0.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H002",
+        "hotel_name": "Hotel Belmont, Singapore",
+        "relevance_score": 0.9628,
+        "evidence": "Strong match on: value (0.96)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9511,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H070",
+        "hotel_name": "Casa Atrium, Sydney",
+        "relevance_score": 0.9408,
+        "evidence": "Strong match on: value (0.94), amenities (0.15)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H009",
+        "hotel_name": "The Boulevard Verde, Lisbon",
+        "relevance_score": 0.8854,
+        "evidence": "Strong match on: value (0.89), amenities (0.92)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.8835,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      }
+    ]
+  },
+  "P46": {
+    "profile_description": "Digital nomad on a long stay, happy with multi-city stays, prefers a quiet room to focus, needs fast reliable WiFi for remote work, wants good value for an extended stay.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.333,
+      "value": 0.333,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9222,
+        "evidence": "Strong match on: location (1.00), amenities (0.97)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H017",
+        "hotel_name": "The Belmont, Bangkok",
+        "relevance_score": 0.6662,
+        "evidence": "Strong match on: amenities (1.00), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.666,
+        "evidence": "Strong match on: amenities (1.00), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.6371,
+        "evidence": "Strong match on: location (0.82), value (0.79)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H013",
+        "hotel_name": "The Boulevard Heights, San Francisco",
+        "relevance_score": 0.6302,
+        "evidence": "Strong match on: value (0.74), location (0.67)"
+      }
+    ]
+  },
+  "P47": {
+    "profile_description": "Group of friends on a city break, wants to be central to the action, here for the nightlife and bars, fine with multi-city legs, splitting costs so value matters.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.667,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9223,
+        "evidence": "Strong match on: value (0.88), location (1.00)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H063",
+        "hotel_name": "The Boulevard Verde, Mumbai",
+        "relevance_score": 0.9037,
+        "evidence": "Strong match on: value (0.95), location (0.81)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.8675,
+        "evidence": "Strong match on: value (0.80), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H046",
+        "hotel_name": "The Regent Harbour, San Francisco",
+        "relevance_score": 0.8581,
+        "evidence": "Strong match on: value (0.79), location (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.7994,
+        "evidence": "Strong match on: value (0.79), location (0.82)"
+      }
+    ]
+  },
+  "P48": {
+    "profile_description": "Guest on a self-care retreat, mid-range budget, prefers direct flights, wants a quiet, restful room, seeking a spa and wellness retreat.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.333,
+      "value": 0.333,
+      "location": 0.333
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9222,
+        "evidence": "Strong match on: location (1.00), amenities (0.97)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H017",
+        "hotel_name": "The Belmont, Bangkok",
+        "relevance_score": 0.6662,
+        "evidence": "Strong match on: amenities (1.00), location (1.00)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.666,
+        "evidence": "Strong match on: amenities (1.00), location (1.00)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.6371,
+        "evidence": "Strong match on: location (0.82), value (0.79)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H013",
+        "hotel_name": "The Boulevard Heights, San Francisco",
+        "relevance_score": 0.6302,
+        "evidence": "Strong match on: value (0.74), location (0.67)"
+      }
+    ]
+  },
+  "P49": {
+    "profile_description": "Solo female traveler, keen on local culture and markets, wants a central, walkable base, safety-conscious.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.0,
+      "value": 0.0,
+      "location": 1.0
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H014",
+        "hotel_name": "The Meridian Plaza, London",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.54)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H027",
+        "hotel_name": "Hotel Magnolia, Cape Town",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), service (0.44)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H106",
+        "hotel_name": "The Park Aurora, Mexico City",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.96)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H051",
+        "hotel_name": "Casa Harbour, Istanbul",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00), amenities (0.45)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H098",
+        "hotel_name": "The Royal Plaza, Mumbai",
+        "relevance_score": 0.9999,
+        "evidence": "Strong match on: location (1.00)"
+      }
+    ]
+  },
+  "P50": {
+    "profile_description": "Corporate road-warrior, mid-range expense-account budget, values a central location near the office district, needs rock-solid WiFi and meeting space.",
+    "inferred_aspect_weights": {
+      "cleanliness": 0.0,
+      "service": 0.0,
+      "amenities": 0.273,
+      "value": 0.364,
+      "location": 0.364
+    },
+    "top_5_recommendations": [
+      {
+        "rank": 1,
+        "hotel_id": "H095",
+        "hotel_name": "Hotel Belmont, Mexico City",
+        "relevance_score": 0.9183,
+        "evidence": "Strong match on: location (1.00), value (0.80)"
+      },
+      {
+        "rank": 2,
+        "hotel_id": "H023",
+        "hotel_name": "The Park Continental, Lima",
+        "relevance_score": 0.6676,
+        "evidence": "Strong match on: location (0.82), value (0.79)"
+      },
+      {
+        "rank": 3,
+        "hotel_id": "H013",
+        "hotel_name": "The Boulevard Heights, San Francisco",
+        "relevance_score": 0.6438,
+        "evidence": "Strong match on: value (0.74), location (0.67)"
+      },
+      {
+        "rank": 4,
+        "hotel_id": "H017",
+        "hotel_name": "The Belmont, Bangkok",
+        "relevance_score": 0.6359,
+        "evidence": "Strong match on: location (1.00), amenities (1.00)"
+      },
+      {
+        "rank": 5,
+        "hotel_id": "H076",
+        "hotel_name": "The Regent Riverside, Seoul",
+        "relevance_score": 0.6358,
+        "evidence": "Strong match on: location (1.00), amenities (1.00)"
+      }
+    ]
+  }
+}
