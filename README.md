@@ -127,15 +127,33 @@ Requires Python 3.10+. All paths are relative to the project root.
   configurable to a "general" bucket instead.
 - A binary sentiment model (positive/negative, no neutral class) was used for
   speed; this is a known simplification (see Limitations).
+- Personalization uses keyword-based aspect/dimension matching rather than
+  semantic embedding-based retrieval. This was a deliberate choice: my
+  discovery that review text is generated from a small fixed template pool
+  (see Key Dataset Findings) made keyword matching both sufficient and more
+  explainable than a semantic approach for this dataset, while RAG/embedding
+  retrieval is explicitly optional per the problem statement FAQ. Semantic
+  retrieval is noted as a Future Improvement for more varied/organic data.
 
 ## Limitations
 
 - Sentiment model has no neutral class - mixed/neutral sentences are forced
   into positive or negative.
-- Contradiction handling (reconciling conflicting sentiment across different reviewers for the same hotel/aspect) was not implemented in this submission - see Future Improvements.
+- Contradictions across reviewers are implicitly reconciled through signed
+  sentiment averaging per hotel/aspect - opposing reviews cancel rather than
+  compound, so a hotel with genuinely mixed feedback correctly shows a
+  moderate rather than falsely extreme score. Explicit contradiction-type
+  detection (e.g., separately flagging *why* reviewers disagree, such as by
+  traveler type or recency) was not built, given time constraints - see
+  Future Improvements.
 - Relevance scores can cluster near the ceiling (±1) due to the underlying
   sentiment model producing high-confidence scores on the dataset's templated
   sentences; ties are broken using review volume as a proxy for confidence.
+- Given the templated nature of the underlying review text, seasonal
+  deviation is high-variance by construction; ~83% of hotel-aspect pairs
+  trigger our anomaly threshold, meaning the flag is best read as "elevated
+  seasonal variability" rather than a rare, statistically unusual event in
+  this sample dataset.
 - No RAG / vector retrieval was used - not required per the problem statement
   FAQ, and keyword-based aspect/dimension matching was sufficient and more
   explainable given the dataset's template structure.
