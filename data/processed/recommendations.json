@@ -1,14 +1,13 @@
 {
   "P01": {
-    "profile_description": "Solo female traveler, safety-conscious, wants a central, walkable base, keen on local culture and markets.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.0,
-      "location": 1.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P01",
+    "archetype": "solo_female_local",
+    "desired_dims": [
+      "local_culture",
+      "location_central",
+      "safety"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H014",
@@ -47,15 +46,14 @@
     ]
   },
   "P02": {
-    "profile_description": "Corporate road-warrior, needs rock-solid WiFi and meeting space, wants a quiet room for calls, mid-range expense-account budget, values a central location near the office district.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.25,
-      "value": 0.333,
-      "location": 0.417
-    },
-    "top_5_recommendations": [
+    "profile_id": "P02",
+    "archetype": "corporate_budget_location",
+    "desired_dims": [
+      "location_central",
+      "business_connectivity",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H095",
@@ -94,15 +92,13 @@
     ]
   },
   "P03": {
-    "profile_description": "Parents traveling with toddlers, prefers direct flights with kids, values connecting rooms, needs family-friendly facilities and a pool, mid-range budget.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.143,
-      "amenities": 0.571,
-      "value": 0.286,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P03",
+    "archetype": "family_budget",
+    "desired_dims": [
+      "family_friendly",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -141,15 +137,13 @@
     ]
   },
   "P04": {
-    "profile_description": "Couple on a romantic getaway, wants a spa and wellness facilities, appreciates attentive personal service, prefers a quiet, peaceful room, happy with a higher budget for the right vibe.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.4,
-      "amenities": 0.2,
-      "value": 0.2,
-      "location": 0.2
-    },
-    "top_5_recommendations": [
+    "profile_id": "P04",
+    "archetype": "couple_budget_quiet",
+    "desired_dims": [
+      "quiet_relaxation",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H075",
@@ -188,15 +182,13 @@
     ]
   },
   "P05": {
-    "profile_description": "Budget backpacker, open to multi-city routing to save money, loves nightlife and a social scene, tight budget, value is everything, wants to experience local culture cheaply.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.75,
-      "location": 0.25
-    },
-    "top_5_recommendations": [
+    "profile_id": "P05",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value",
+      "local_culture"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H063",
@@ -235,15 +227,14 @@
     ]
   },
   "P06": {
-    "profile_description": "Discerning traveler, values privacy and refinement, wants a world-class spa, expects impeccable five-star service.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.333,
-      "amenities": 0.333,
-      "value": 0.333,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P06",
+    "archetype": "luxury_comfort_budget_value",
+    "desired_dims": [
+      "luxury_comfort",
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -282,15 +273,14 @@
     ]
   },
   "P07": {
-    "profile_description": "Culinary traveler, interested in authentic local culture, wants to be central to the restaurant scene, chasing great food and local dining, mid-to-high budget for experiences.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.333,
-      "location": 0.667
-    },
-    "top_5_recommendations": [
+    "profile_id": "P07",
+    "archetype": "budget_local",
+    "desired_dims": [
+      "local_culture",
+      "location_central",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -329,15 +319,13 @@
     ]
   },
   "P08": {
-    "profile_description": "Traveler with mobility needs, wants a central location to minimize travel, needs helpful, attentive staff, prefers direct flights, requires full step-free accessibility.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.5,
-      "amenities": 0.167,
-      "value": 0.0,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P08",
+    "archetype": "location_central_accessibility",
+    "desired_dims": [
+      "location_central",
+      "accessibility"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H106",
@@ -376,15 +364,13 @@
     ]
   },
   "P09": {
-    "profile_description": "Couple after a beach break, enjoys good on-site dining, would love a spa to unwind, prefers direct flights, mid-range to upper budget.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.5,
-      "value": 0.5,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P09",
+    "archetype": "couple_budget",
+    "desired_dims": [
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -423,15 +409,13 @@
     ]
   },
   "P10": {
-    "profile_description": "Long-stay freelancer, happy with multi-city stays, needs fast reliable WiFi for remote work, prefers a quiet room to focus.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.5,
-      "value": 0.0,
-      "location": 0.5
-    },
-    "top_5_recommendations": [
+    "profile_id": "P10",
+    "archetype": "business_connectivity_quiet_relaxation",
+    "desired_dims": [
+      "business_connectivity",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H017",
@@ -470,15 +454,13 @@
     ]
   },
   "P11": {
-    "profile_description": "Bachelor/bachelorette group, fine with multi-city legs, wants to be central to the action, splitting costs so value matters.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.667,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P11",
+    "archetype": "budget_value_location_central",
+    "desired_dims": [
+      "budget_value",
+      "location_central"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -517,15 +499,14 @@
     ]
   },
   "P12": {
-    "profile_description": "Guest on a self-care retreat, values spotless cleanliness, mid-range budget, prefers direct flights, seeking a spa and wellness retreat.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.4,
-      "service": 0.0,
-      "amenities": 0.2,
-      "value": 0.4,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P12",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value",
+      "cleanliness_priority",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H071",
@@ -564,15 +545,13 @@
     ]
   },
   "P13": {
-    "profile_description": "Woman traveling alone, enjoys multi-city trips in one journey, keen on local culture and markets, prefers direct flights, wants a central, walkable base.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.0,
-      "location": 1.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P13",
+    "archetype": "local_culture_location_central",
+    "desired_dims": [
+      "local_culture",
+      "location_central"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H014",
@@ -611,15 +590,14 @@
     ]
   },
   "P14": {
-    "profile_description": "Frequent business traveler, values a central location near the office district, mid-range expense-account budget, prefers direct flights, wants a quiet room for calls.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.375,
-      "location": 0.625
-    },
-    "top_5_recommendations": [
+    "profile_id": "P14",
+    "archetype": "corporate_budget_location",
+    "desired_dims": [
+      "location_central",
+      "budget_value",
+      "business_connectivity"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -658,15 +636,14 @@
     ]
   },
   "P15": {
-    "profile_description": "Family with two children, mid-range budget, values connecting rooms, wants clean, spacious rooms.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.2,
-      "service": 0.0,
-      "amenities": 0.4,
-      "value": 0.4,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P15",
+    "archetype": "family_budget",
+    "desired_dims": [
+      "family_friendly",
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H071",
@@ -705,15 +682,13 @@
     ]
   },
   "P16": {
-    "profile_description": "Honeymooning couple, wants a spa and wellness facilities, appreciates attentive personal service, happy with a higher budget for the right vibe, prefers a quiet, peaceful room.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.4,
-      "amenities": 0.2,
-      "value": 0.2,
-      "location": 0.2
-    },
-    "top_5_recommendations": [
+    "profile_id": "P16",
+    "archetype": "couple_budget_quiet",
+    "desired_dims": [
+      "quiet_relaxation",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H075",
@@ -752,15 +727,13 @@
     ]
   },
   "P17": {
-    "profile_description": "Shoestring traveler, open to multi-city routing to save money, wants to experience local culture cheaply, tight budget, value is everything.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.75,
-      "location": 0.25
-    },
-    "top_5_recommendations": [
+    "profile_id": "P17",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value",
+      "local_culture"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H063",
@@ -799,15 +772,14 @@
     ]
   },
   "P18": {
-    "profile_description": "High-end leisure guest, expects impeccable five-star service, values privacy and refinement, budget is no object, wants a world-class spa.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.25,
-      "amenities": 0.25,
-      "value": 0.5,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P18",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value",
+      "luxury_comfort",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -846,15 +818,14 @@
     ]
   },
   "P19": {
-    "profile_description": "Avid foodie, wants to be central to the restaurant scene, mid-to-high budget for experiences, chasing great food and local dining, interested in authentic local culture.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.333,
-      "location": 0.667
-    },
-    "top_5_recommendations": [
+    "profile_id": "P19",
+    "archetype": "budget_local",
+    "desired_dims": [
+      "local_culture",
+      "location_central",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -893,15 +864,13 @@
     ]
   },
   "P20": {
-    "profile_description": "Wheelchair user, prefers direct flights, wants a central location to minimize travel, needs helpful, attentive staff.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.6,
-      "amenities": 0.0,
-      "value": 0.0,
-      "location": 0.4
-    },
-    "top_5_recommendations": [
+    "profile_id": "P20",
+    "archetype": "location_central_accessibility",
+    "desired_dims": [
+      "location_central",
+      "accessibility"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H079",
@@ -940,15 +909,12 @@
     ]
   },
   "P21": {
-    "profile_description": "Beach-holiday traveler, prefers direct flights, mid-range to upper budget, enjoys good on-site dining, wants direct beach access.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 1.0,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P21",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H002",
@@ -987,15 +953,13 @@
     ]
   },
   "P22": {
-    "profile_description": "Remote worker, needs fast reliable WiFi for remote work, happy with multi-city stays, wants good value for an extended stay.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.5,
-      "value": 0.5,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P22",
+    "archetype": "business_connectivity_budget_value",
+    "desired_dims": [
+      "business_connectivity",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -1034,15 +998,13 @@
     ]
   },
   "P23": {
-    "profile_description": "Group of friends on a city break, fine with multi-city legs, wants to be central to the action, splitting costs so value matters.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.667,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P23",
+    "archetype": "budget_value_location_central",
+    "desired_dims": [
+      "budget_value",
+      "location_central"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -1081,15 +1043,14 @@
     ]
   },
   "P24": {
-    "profile_description": "Solo wellness traveler, seeking a spa and wellness retreat, values spotless cleanliness, prefers direct flights.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.5,
-      "service": 0.0,
-      "amenities": 0.25,
-      "value": 0.25,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P24",
+    "archetype": "solo_cleanliness",
+    "desired_dims": [
+      "cleanliness_priority",
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H071",
@@ -1128,15 +1089,13 @@
     ]
   },
   "P25": {
-    "profile_description": "Independent solo traveler, prefers direct flights, wants a central, walkable base, keen on local culture and markets.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.0,
-      "location": 1.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P25",
+    "archetype": "solo_local",
+    "desired_dims": [
+      "local_culture",
+      "location_central"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H014",
@@ -1175,15 +1134,14 @@
     ]
   },
   "P26": {
-    "profile_description": "Corporate road-warrior, values a central location near the office district, needs rock-solid WiFi and meeting space, wants a quiet room for calls.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.3,
-      "value": 0.2,
-      "location": 0.5
-    },
-    "top_5_recommendations": [
+    "profile_id": "P26",
+    "archetype": "corporate_location",
+    "desired_dims": [
+      "location_central",
+      "business_connectivity",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H095",
@@ -1222,15 +1180,13 @@
     ]
   },
   "P27": {
-    "profile_description": "Family of four with young kids, values connecting rooms, needs family-friendly facilities and a pool, prefers direct flights with kids, mid-range budget.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.143,
-      "amenities": 0.571,
-      "value": 0.286,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P27",
+    "archetype": "family_budget",
+    "desired_dims": [
+      "family_friendly",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -1269,15 +1225,13 @@
     ]
   },
   "P28": {
-    "profile_description": "Honeymooning couple, appreciates attentive personal service, prefers a quiet, peaceful room, wants a spa and wellness facilities, happy with a higher budget for the right vibe.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.4,
-      "amenities": 0.2,
-      "value": 0.2,
-      "location": 0.2
-    },
-    "top_5_recommendations": [
+    "profile_id": "P28",
+    "archetype": "couple_budget_quiet",
+    "desired_dims": [
+      "quiet_relaxation",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H075",
@@ -1316,15 +1270,13 @@
     ]
   },
   "P29": {
-    "profile_description": "Young solo backpacker, tight budget, value is everything, loves nightlife and a social scene, wants to experience local culture cheaply, open to multi-city routing to save money.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.75,
-      "location": 0.25
-    },
-    "top_5_recommendations": [
+    "profile_id": "P29",
+    "archetype": "solo_budget",
+    "desired_dims": [
+      "budget_value",
+      "local_culture"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H063",
@@ -1363,15 +1315,14 @@
     ]
   },
   "P30": {
-    "profile_description": "Luxury traveler, expects impeccable five-star service, prefers direct premium-cabin flights, values privacy and refinement, wants a world-class spa.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.333,
-      "amenities": 0.333,
-      "value": 0.333,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P30",
+    "archetype": "luxury_comfort_budget_value",
+    "desired_dims": [
+      "luxury_comfort",
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -1410,15 +1361,13 @@
     ]
   },
   "P31": {
-    "profile_description": "Food-and-wine enthusiast, wants to be central to the restaurant scene, interested in authentic local culture, chasing great food and local dining.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.0,
-      "location": 1.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P31",
+    "archetype": "local_culture_location_central",
+    "desired_dims": [
+      "local_culture",
+      "location_central"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H014",
@@ -1457,15 +1406,13 @@
     ]
   },
   "P32": {
-    "profile_description": "Guest requiring step-free access, needs helpful, attentive staff, prefers direct flights, wants a central location to minimize travel.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.5,
-      "amenities": 0.167,
-      "value": 0.0,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P32",
+    "archetype": "location_central_accessibility",
+    "desired_dims": [
+      "location_central",
+      "accessibility"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H106",
@@ -1504,15 +1451,13 @@
     ]
   },
   "P33": {
-    "profile_description": "Sun-seeker, mid-range to upper budget, would love a spa to unwind, wants direct beach access.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.5,
-      "value": 0.5,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P33",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -1551,15 +1496,14 @@
     ]
   },
   "P34": {
-    "profile_description": "Long-stay freelancer, happy with multi-city stays, needs fast reliable WiFi for remote work, prefers a quiet room to focus, wants good value for an extended stay.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.333,
-      "value": 0.333,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P34",
+    "archetype": "business_connectivity_budget_value",
+    "desired_dims": [
+      "business_connectivity",
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H095",
@@ -1598,15 +1542,13 @@
     ]
   },
   "P35": {
-    "profile_description": "Friends traveling together, fine with multi-city legs, here for the nightlife and bars, splitting costs so value matters, wants to be central to the action.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.667,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P35",
+    "archetype": "budget_value_location_central",
+    "desired_dims": [
+      "budget_value",
+      "location_central"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -1645,15 +1587,14 @@
     ]
   },
   "P36": {
-    "profile_description": "Guest on a self-care retreat, prefers direct flights, seeking a spa and wellness retreat, values spotless cleanliness.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.5,
-      "service": 0.0,
-      "amenities": 0.25,
-      "value": 0.25,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P36",
+    "archetype": "cleanliness_priority_budget_value",
+    "desired_dims": [
+      "cleanliness_priority",
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H071",
@@ -1692,15 +1633,14 @@
     ]
   },
   "P37": {
-    "profile_description": "Solo female traveler, wants a central, walkable base, keen on local culture and markets, prefers direct flights, safety-conscious.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.0,
-      "location": 1.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P37",
+    "archetype": "solo_female_local",
+    "desired_dims": [
+      "local_culture",
+      "location_central",
+      "safety"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H014",
@@ -1739,15 +1679,14 @@
     ]
   },
   "P38": {
-    "profile_description": "Corporate road-warrior, mid-range expense-account budget, values a central location near the office district, prefers direct flights, wants a quiet room for calls.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.444,
-      "location": 0.556
-    },
-    "top_5_recommendations": [
+    "profile_id": "P38",
+    "archetype": "corporate_budget_location",
+    "desired_dims": [
+      "location_central",
+      "budget_value",
+      "business_connectivity"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -1786,15 +1725,14 @@
     ]
   },
   "P39": {
-    "profile_description": "Family with two children, prefers direct flights with kids, needs family-friendly facilities and a pool, wants clean, spacious rooms, mid-range budget.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.143,
-      "service": 0.143,
-      "amenities": 0.571,
-      "value": 0.143,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P39",
+    "archetype": "family_budget",
+    "desired_dims": [
+      "family_friendly",
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H071",
@@ -1833,15 +1771,13 @@
     ]
   },
   "P40": {
-    "profile_description": "Honeymooning couple, appreciates attentive personal service, happy with a higher budget for the right vibe, wants a spa and wellness facilities.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.5,
-      "amenities": 0.25,
-      "value": 0.25,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P40",
+    "archetype": "couple_budget",
+    "desired_dims": [
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -1880,15 +1816,13 @@
     ]
   },
   "P41": {
-    "profile_description": "Shoestring traveler, wants to experience local culture cheaply, tight budget, value is everything, open to multi-city routing to save money.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.75,
-      "location": 0.25
-    },
-    "top_5_recommendations": [
+    "profile_id": "P41",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value",
+      "local_culture"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H063",
@@ -1927,15 +1861,14 @@
     ]
   },
   "P42": {
-    "profile_description": "High-end leisure guest, wants a world-class spa, budget is no object, values privacy and refinement.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.333,
-      "value": 0.667,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P42",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value",
+      "luxury_comfort",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H009",
@@ -1974,15 +1907,14 @@
     ]
   },
   "P43": {
-    "profile_description": "Avid foodie, mid-to-high budget for experiences, interested in authentic local culture, chasing great food and local dining, wants to be central to the restaurant scene.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.333,
-      "location": 0.667
-    },
-    "top_5_recommendations": [
+    "profile_id": "P43",
+    "archetype": "budget_local",
+    "desired_dims": [
+      "local_culture",
+      "location_central",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -2021,15 +1953,13 @@
     ]
   },
   "P44": {
-    "profile_description": "Wheelchair user, prefers direct flights, wants a central location to minimize travel, requires full step-free accessibility.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.333,
-      "value": 0.0,
-      "location": 0.667
-    },
-    "top_5_recommendations": [
+    "profile_id": "P44",
+    "archetype": "accessibility_location_central",
+    "desired_dims": [
+      "accessibility",
+      "location_central"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H017",
@@ -2068,15 +1998,12 @@
     ]
   },
   "P45": {
-    "profile_description": "Beach-holiday traveler, mid-range to upper budget, enjoys good on-site dining, wants direct beach access.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 1.0,
-      "location": 0.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P45",
+    "archetype": "budget",
+    "desired_dims": [
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H002",
@@ -2115,15 +2042,14 @@
     ]
   },
   "P46": {
-    "profile_description": "Digital nomad on a long stay, happy with multi-city stays, prefers a quiet room to focus, needs fast reliable WiFi for remote work, wants good value for an extended stay.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.333,
-      "value": 0.333,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P46",
+    "archetype": "business_connectivity_budget_value",
+    "desired_dims": [
+      "business_connectivity",
+      "budget_value",
+      "quiet_relaxation"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H095",
@@ -2162,15 +2088,13 @@
     ]
   },
   "P47": {
-    "profile_description": "Group of friends on a city break, wants to be central to the action, here for the nightlife and bars, fine with multi-city legs, splitting costs so value matters.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.667,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P47",
+    "archetype": "budget_value_location_central",
+    "desired_dims": [
+      "budget_value",
+      "location_central"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H027",
@@ -2209,15 +2133,13 @@
     ]
   },
   "P48": {
-    "profile_description": "Guest on a self-care retreat, mid-range budget, prefers direct flights, wants a quiet, restful room, seeking a spa and wellness retreat.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.333,
-      "value": 0.333,
-      "location": 0.333
-    },
-    "top_5_recommendations": [
+    "profile_id": "P48",
+    "archetype": "budget_quiet",
+    "desired_dims": [
+      "quiet_relaxation",
+      "budget_value"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H095",
@@ -2256,15 +2178,14 @@
     ]
   },
   "P49": {
-    "profile_description": "Solo female traveler, keen on local culture and markets, wants a central, walkable base, safety-conscious.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.0,
-      "value": 0.0,
-      "location": 1.0
-    },
-    "top_5_recommendations": [
+    "profile_id": "P49",
+    "archetype": "solo_female_local",
+    "desired_dims": [
+      "local_culture",
+      "location_central",
+      "safety"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H014",
@@ -2303,15 +2224,14 @@
     ]
   },
   "P50": {
-    "profile_description": "Corporate road-warrior, mid-range expense-account budget, values a central location near the office district, needs rock-solid WiFi and meeting space.",
-    "inferred_aspect_weights": {
-      "cleanliness": 0.0,
-      "service": 0.0,
-      "amenities": 0.273,
-      "value": 0.364,
-      "location": 0.364
-    },
-    "top_5_recommendations": [
+    "profile_id": "P50",
+    "archetype": "corporate_budget_location",
+    "desired_dims": [
+      "location_central",
+      "budget_value",
+      "business_connectivity"
+    ],
+    "top_hotels": [
       {
         "rank": 1,
         "hotel_id": "H095",
